@@ -26,5 +26,3 @@ def sendSMS(nums,code):
 
     response = client.do_action(request)
     print(str(response, encoding = 'utf-8'))
-
-sendSMS("phone","{code:124366}")
